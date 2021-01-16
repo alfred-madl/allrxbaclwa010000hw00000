@@ -3,18 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Vanilla JavaScript SPA</title>
-    <link rel="SHORTCUT ICON" href="./favicon.svg" type="image/x-icon">
-    
-    <!-- msal.min.js can be used in the place of msal.js; included msal.js to make debug easy -->
+    <title>AllRisX</title>
+    <link rel='icon' type='image/x-icon' href='/favicon.ico'/>
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'/>
     <script src="https://alcdn.msauth.net/browser/2.7.0/js/msal-browser.js" integrity="sha384-5Fqyq1ncNYhL2mXCdWAFXkf2wWtKeA0mXYp++ryAX1lowD0ctAHFdity37L/ULXh" crossorigin="anonymous"></script>
-
-    <!-- To help ensure reliability, Microsoft provides a second CDN -->
-    <script type="text/javascript">
-      if(typeof Msal === 'undefined')document.write(unescape("%3Cscript src='https://alcdn.msftauth.net/browser/2.7.0/js/msal-browser.js' type='text/javascript' crossorigin='anonymous' %3E%3C/script%3E"));
-    </script>
-
-    <!-- adding Bootstrap 4 for UI components  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
   <body>
@@ -27,10 +19,9 @@
       </div>
     </nav>
     <br>
-    <h5 id="title-div" class="card-header text-center">Vanilla JavaScript Single-page Application built with MSAL.js</h5>
+    <h5 id="title-div" class="card-header text-center">AllRisX Single-page Application built with MSAL.js</h5>
     <h5 id="welcome-div" class="card-header text-center d-none"></h5>
     <br>
-    <!-- Content -->
     <div class="card">
       <h5 class="card-header text-center">Getting an access token with Azure AD B2C and calling a Web API</h5>
       <div class="card-body text-center">
